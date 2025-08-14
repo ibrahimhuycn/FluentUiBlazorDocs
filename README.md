@@ -127,20 +127,122 @@ Each component documentation includes:
 - **Accessibility Notes** - A11y considerations and implementations
 
 ## 🏗️ Repository Structure
-
 ```
-├── docs/
-│   ├── components/
-│   │   ├── fluent-toolbar.md
-│   │   ├── fluent-tabs.md
-│   │   ├── fluent-toast.md
-│   │   ├── fluent-tooltip.md
-│   │   ├── fluent-treeview.md
-│   │   ├── fluent-wizard.md
-│   │   └── ... (more components)
-│   └── ...
+FluentUiBlazorDocs-main/
+│
 ├── README.md
-└── LICENSE
+│
+├── 1. Getting Started/
+│   ├── 1.1 Code Setup.md
+│   ├── 1.2 Project templates.md
+│   ├── 1.3 Themes.md
+│   ├── 1.4 Design Tokens.md
+│   ├── 1.5 Reboot CSS.md
+│   ├── 1.6 Using Icons and Emoji.md
+│   └── 1.7 Blazor Hybrid.md
+│
+├── 2. Layout/
+│   ├── 2.1 Header.md
+│   ├── 2.2 Footer.md
+│   ├── 2.3 Body Content.md
+│   ├── 2.4 Grid.md
+│   ├── 2.5 Layout.md
+│   ├── 2.5 Main Layout.md
+│   ├── 2.6 Spacer.md
+│   ├── 2.7 Splitter.md
+│   ├── 2.8 Splitter Multi.md
+│   └── 2.9 Stack.md
+│
+├── 3. Forms And Inputs/
+│   ├── 3.1 Overview.md
+│   ├── 3.2 Checkbox.md
+│   ├── 3.3 Date and Time.md
+│   ├── 3.4 Input File.md
+│   ├── 3.5 Lists/
+│   │   ├── 3.5.1 Autocomplete.md
+│   │   ├── 3.5.2 Combobox.md
+│   │   ├── 3.5.3 Listbox.md
+│   │   ├── 3.5.4 Select.md
+│   │   └── 3.5.5 Option.md
+│   ├── 3.6 Number Field.md
+│   ├── 3.7 Radio.md
+│   ├── 3.8 Radio Group.md
+│   ├── 3.9 Rating.md
+│   ├── 3.10 Search.md
+│   ├── 3.11 Slider.md
+│   ├── 3.12 Switch.md
+│   ├── 3.13 TextArea.md
+│   ├── 3.14 Text Field.md
+│   └── 3.15 Time Picker.md
+│
+└── 4. Components/
+    ├── 4.1 Overview.md
+    ├── 4.2 Accordion.md
+    ├── 4.3 Anchor.md
+    ├── 4.4 Anchored Region.md
+    ├── 4.5 AppBar.md
+    ├── 4.6 Badge/
+    │   ├── 4.6.1 Badge.md
+    │   ├── 4.6.2 CounterBadge.md
+    │   └── 4.6.3 PresenceBadge.md
+    ├── 4.7 Breadcrumb.md
+    ├── 4.8 Button/
+    │   ├── 4.8.1 Button.md
+    │   └── 4.8.2 MenuButton.md
+    ├── 4.9 Card.md
+    ├── 4.10 Data grid/
+    │   ├── 4.10.1 Overview.md
+    │   ├── 4.10.2 Getting Started.md
+    │   ├── 4.10.3 Typical grid usage.md
+    │   ├── 4.10.4 ...Content Parameters.md
+    │   ├── 4.10.5 Auto fit.md
+    │   ├── 4.10.6 Auto items per page.md
+    │   ├── 4.10.7 Custom Paging.md
+    │   ├── 4.10.8 Multi line text in cells.md
+    │   ├── 4.10.9 Table with scrollbars.md
+    │   ├── 4.10.10 Custom comparer sort.md
+    │   ├── 4.10.11 Custom GridSort.md
+    │   ├── 4.10.12 Single Multi Select.md
+    │   ├── 4.10.13 Dynamic Columns.md
+    │   ├── 4.10.14 Header generation.md
+    │   ├── 4.10.15 Template Columns.md
+    │   ├── 4.10.16 More Template Columns.md
+    │   ├── 4.10.17 Virtualized Grid.md
+    │   ├── 4.10.18 Remote Data.md
+    │   └── 4.10.19 Manual Grid.md
+    ├── 4.11 Dialog.md
+    ├── 4.12 Divider.md
+    ├── 4.13 Drag and Drop.md
+    ├── 4.14 Emoji.md
+    ├── 4.15 Flipper.md
+    ├── 4.16 Highlighter.md
+    ├── 4.17 Horizontal Scroll.md
+    ├── 4.18 Icon.md
+    ├── 4.19 KeyCode.md
+    ├── 4.20 Label.md
+    ├── 4.21 Menu.md
+    ├── 4.22 MessageBar.md
+    ├── 4.23 MessageBox.md
+    ├── 4.24 NavMenu.md
+    ├── 4.25 NavMenuTree.md
+    ├── 4.26 Overflow.md
+    ├── 4.27 Overlay.md
+    ├── 4.27 Panel.md
+    ├── 4.28 Persona.md
+    ├── 4.29 Popover.md
+    ├── 4.30 ProfileMenu.md
+    ├── 4.31 Progress.md
+    ├── 4.32 Progress Ring.md
+    ├── 4.33 Pull to refresh.md
+    ├── 4.34 Skeleton.md
+    ├── 4.35 Sortable List.md
+    ├── 4.36 SplashScreen.md
+    ├── 4.37 Tabs.md
+    ├── 4.38 Toast.md
+    ├── 4.39 Toolbar.md
+    ├── 4.40 ToolTip.md
+    ├── 4.40 Tree View.md
+    └── 4.41 Wizard.md
 ```
 
 ## 🔧 Local Development
